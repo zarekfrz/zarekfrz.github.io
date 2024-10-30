@@ -52,7 +52,6 @@ section article {
 }
 
 ul {
-    color: black;
     list-style-type: upper-roman;
     padding-left: 0;
     list-style-position: inside;
