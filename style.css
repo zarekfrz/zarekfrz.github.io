@@ -52,8 +52,7 @@ section article {
 }
 
 ul {
-    background-color: rgb(24, 27, 169);
-    color: white;
+    color: black;
     list-style-type: upper-roman;
     padding-left: 0;
     list-style-position: inside;
