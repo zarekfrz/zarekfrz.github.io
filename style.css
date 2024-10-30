@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    background-color: #d6d6d6;
+}
+
+img{
+    margin: auto;
+    image-resolution: 4k;
+}
+
+h2{
+    background-color: rgb(24, 27, 169);
+    color: white;
+}
+
+h2, p{
+    text-align: center;
+    border-color: deeppink;
+}
+
+header {
+    background-image: url('https://media4.giphy.com/media/xTiTnxpQ3ghPiB2Hp6/200.webp?cid=ecf05e47alhl35p82mtkepjaxv7ircbom5pxcdn4ravk8q4o&ep=v1_gifs_search&rid=200.webp&ct=g');
+    background-image: center;
+    color: white;
+    padding: 3rem 2rem;
+    border-style: solid;
+    border-color: cornflowerblue;
+    border-radius: 15px;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    text-decoration: solid;
+    text-shadow: 3px 5px 5px cornflowerblue;
+
+}
+
+.container {
+    width: 400px;
+    margin: 0 auto;
+}
+
+section article {
+    transition: box-shadow 0.5s ease;
+    background-color: #fff;
+    margin: 2rem 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+    cursor: pointer;
+}
+
+ul {
+    background-color: rgb(24, 27, 169);
+    color: white;
+    list-style-type: upper-roman;
+    padding-left: 0;
+    list-style-position: inside;
+    text-align: center;
+}
+
+section article:hover {
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0,3);
+}
+
+section article h2 section article p {
+    margin: 1rem;
+}
+
+footer {
+    background-color: #222;
+    padding: 3rem;
+    color: greenyellow;
+}
+
+footer section {
+    float: right;
+}
+
+footer p {
+    margin: 0;
+    text-align: left;
+}
+
+footera {
+    transition: color 0.3s ease;
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: crimson;
+}
